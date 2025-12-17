@@ -20,6 +20,6 @@ test.describe('Buggy Cars Central Login', () => {
     await loginPage.clickRegister();
 
     await expect(page).toHaveURL(/register/);
-  });git add 
+  })
 
 });
