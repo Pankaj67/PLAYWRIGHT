@@ -18,6 +18,7 @@ test.describe('Buggy Cars Central Login', () => {
 
     await loginPage.openHomePage();
     await loginPage.clickRegister();
+    
 
     await expect(page).toHaveURL(/register/);
   })
